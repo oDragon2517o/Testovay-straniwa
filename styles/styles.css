@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+
+    background-image: url(Зад.jpg);
+    background-repeat:no-repeat;
+    background-position-x:  right; 
+
+    
+    
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#header{
+    border: 1px solid white;
+    padding: 3px;
+    margin: 10px;
+    color: white;
+    height: 100px;
+    
+  
+}
+#header h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 200%;
+
+}
+
+
+#main{
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    height: 800px;
+
+
+}
+#menu{
+    border-right:1px solid white;
+    border-top: 1px solid white;
+    padding: 10px;
+    float: left;
+    overflow:auto;
+    height: 790px;
+    
+    
+}
+
+#content{
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    
+    
+    margin-left: 180px;
+    height: 790px;
+    overflow:auto;
+    
+}
+
+#footer{ 
+    /*border: 1px solid white;
+
+    margin: 10px;*/
+
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 3px;
+    margin-top: 50px;
+
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+
+    width: 100%; /* Ширина слоя */
+}
