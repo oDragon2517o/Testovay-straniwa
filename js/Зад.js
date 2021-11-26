@@ -9,14 +9,7 @@
 let x = 100;
 let y = 2000;
 
-if (X1 > Y1 * 1.78) {
-    x = X1;
-    y = x / 1.78;
-}
-else {
-    y = Y1;
-    x = y * 1.78;
-};
+
 
 
 
@@ -36,10 +29,12 @@ var root = document.documentElement;
 }
     else {
     y = Y1;
-    x = y * 1.78;
+    x = y * 1.78;   
 };
 
-root.style.backgroundSize = x + "px"+" " + y +"px";
+root.style.backgroundSize = x  + "px"+" " + y  +"px";
+
+
 }
 var root = document.documentElement;
 
